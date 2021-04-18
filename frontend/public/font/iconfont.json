@@ -1,0 +1,79 @@
+{
+  "id": "2492631",
+  "name": "react-node-system",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7949068",
+      "name": "Icon - 用户管理",
+      "font_class": "user",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5119325",
+      "name": "category",
+      "font_class": "category",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1799472",
+      "name": "柱状图",
+      "font_class": "bar",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "7811803",
+      "name": "饼图",
+      "font_class": "pie",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7811805",
+      "name": "折线图",
+      "font_class": "line",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "13519409",
+      "name": "goods",
+      "font_class": "goods",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "18592384",
+      "name": "dash-board",
+      "font_class": "dashboard",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "19545468",
+      "name": "商品管理",
+      "font_class": "product",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "36618",
+      "name": "统计分析",
+      "font_class": "charts",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1391486",
+      "name": "角色管理",
+      "font_class": "role",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    }
+  ]
+}

@@ -30,10 +30,14 @@ frontend
    ├─ api                   # ajax 相关
    ├─ App.js                # 根组件
    ├─ assets                # 公共资源
-   ├─ components            # 非路由组件
+   ├─ components              # 非路由组件
    ├─ config                # 配置
    ├─ index.js              # 入口文件
    ├─ pages                 # 路由组件
    └─ utils                 # 工具模块
 
 ```
+## 具体实现细节
+1.[按需加载 antd 和自定义主题](https://3x.ant.design/docs/react/use-with-create-react-app-cn)
+react-app-rewired 会 读取 config-overrides
+[less-loader版本过高问题](https://blog.csdn.net/weixin_42614080/article/details/113749476)
