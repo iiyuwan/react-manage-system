@@ -15,8 +15,8 @@ class Login extends Component {
         const status = res.status
         if(status === 0) {
             message.success('登录成功')
-            this.props.history.replace('/',res.data)
             storageUtil.saveUser(res.data)
+            this.props.history.replace('/',res.data)
         }else {
             message.error(res.message)
         }

@@ -7,6 +7,6 @@ module.exports = override(
     }),
     addLessLoader({ // 对源码的 less 文件进行变量覆盖
         javascriptEnabled: true,
-        modifyVars: {'@primary-color': '#96b97d'},
+        modifyVars: {'@primary-color': '#409eff'},
     }),
 );

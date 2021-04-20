@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom'
+import { Redirect, Route, Switch} from 'react-router-dom'
 
 import {Layout} from 'antd';
 
@@ -28,17 +28,17 @@ class Home extends Component {
     render() {
         const user = storageUtil.getUser()
         if (!user || !user._id) {
+            console.log('进来了')
             return <Redirect to='/login'/>
         }
-        const curPath = this.props.location.pathname
         return (
             <Layout style={{height: '100%'}}>
                 <Sider>
-                    <Sidebar curPath={curPath}/>
+                    <Sidebar />
                 </Sider>
                 <Layout>
                     <Header />
-                    <Content style={{backgroundColor:'#fff'}}>
+                    <Content style={{backgroundColor:'#fff',margin:'16px',overflow:'auto'}}>
                             {/* 匹配一个路由组件 */}
                             <Switch>
                                 {/* 注册路由 */}
